@@ -1,0 +1,30 @@
+indexes:
+
+- kind: video
+  ancestor: yes
+  properties:
+  - name: name
+  - name: extension
+  - name: encoding
+  - name: speedrate
+  - name: volume
+  - name: duration
+  - name: timescale
+  - name: language
+
+- kind: trackentry
+  ancestor: yes
+  properties:
+  - name: width
+  - name: height
+  - name: hresolution
+  - name: vresolution
+  - name: fps
+  - name: bitdepth
+  - name: filename
+
+- kind: btrtbox
+  properties:
+  - name: size
+  - name: maxbitrate
+  - name: avgbitrate
