@@ -8,7 +8,7 @@ import (
 	"github.com/gorilla/handlers"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"
-	"github.com/modo-embeds/formats"
+	"github.com/odusanya18/modo-embeds/formats"
 )
 
 const (
